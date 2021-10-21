@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 
-def testapp(name):
+def hello(name):
     return f"This is test app {name}"
 
 
 if __name__ == "__main__":
-    print(testapp("Pawel"))
+    print(hello("Pawel"))

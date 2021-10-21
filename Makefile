@@ -6,3 +6,6 @@ lint:
 
 format:
 	black *.py
+
+test:
+	pytest -vv --cov-report term-missing --cov=app test_*.py
